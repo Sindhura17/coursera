@@ -1,2 +1,2 @@
 # coursera
-to learn js
+Coursera submissions.
