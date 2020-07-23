@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align: center;
+    font-size:175%;
+    margin-top:25px;
+    margin-bottom: 50px;
+}
+section{
+    position:relative;
+    background-color: grey;
+    border:1px solid black;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+section h2{
+    position:absolute;
+    right:0px;
+    text-align: center;
+    font-size:125%;
+    width: 150px;
+    height:40px;
+    border:1px solid black;
+    margin:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#hd1{
+    background-color: palevioletred;
+}
+#hd2{
+    background-color:rgb(223, 66, 66);
+}
+#hd3{
+    background-color:rgb(236, 234, 112);
+}
+
+
+section p{
+    margin:10px;
+    padding-top:40px;
+}
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    div {
+        float: left;
+        width: 33.33%;
+    }
+    
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col1, .col2 {
+        float:left;
+        width:50%;
+    }
+    .col3 {
+        clear:left;
+    }
+    .col3 section{
+        width:95%;
+    }
+
+  }
+
+  /* Base style will be applied to Mobile */
+
