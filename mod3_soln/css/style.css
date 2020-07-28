@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+header{
+    padding:0px;
+    margin: 0px;
+}
+.navbar{
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+
+#navbarNav{
+    background-color: white;
+    margin:10px -20px 0px;
+    padding:0px;
+    
+}
+#navbarNav .nav-link{
+    color:black;
+    text-align: center;
+    border:1px solid black;
+}
+.container-fluid{
+    padding:0px 20px 20px;
+}
+.navbar .container-fluid{
+    margin-bottom:0px;
+    padding-bottom:0px;
+    
+}
+.navbar-dark .navbar-toggler {
+    border:1px solid white;
+}
+
+h2{
+    margin:30px;
+    text-align: center;
+}
+#content{
+    background-color: rgba(128, 128, 128, 0.671);
+    padding:25px;
+}
+section h4{
+    text-align: center;
+}
